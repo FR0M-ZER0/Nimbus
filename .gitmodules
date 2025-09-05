@@ -1,0 +1,6 @@
+[submodule "nimbus-back"]
+	path = nimbus-back
+	url = git@https://github.com/FR0M-ZER0/nimbus-back.git
+[submodule "nimbus-front"]
+	path = nimbus-front
+	url = git@https://github.com/FR0M-ZER0/nimbus-front.git
