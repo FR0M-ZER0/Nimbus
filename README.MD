@@ -1,6 +1,6 @@
 # Sistema de Coleta de Dados de Estações Meteorológicas
 
-## Descrição do Desafio (com a dor do Parceiro)
+## Descrição
 
 A empresa Tecsus, especializada na coleta e processamento de dados de redes de sensores sem fio (IoT) para utilidades como água, energia e gás, busca expandir seu portfólio para o monitoramento ambiental. Para isso, a empresa deseja desenvolver estações meteorológicas de baixo custo.
 
@@ -8,11 +8,26 @@ O desafio consiste em criar um sistema completo que colete periodicamente dados 
 
 Ao final, kits de estações meteorológicas serão instalados na Escola Estadual Elmano Ferreira Veloso e na Faculdade de Tecnologia de São José dos Campos (Fatec SJC), envolvendo alunos do ensino médio em uma aprendizagem baseada em problemas.
 
-## Backlog de Produto
+## 📋 Backlog / User Stories
 
+| Prioridade | User Story | Estimativa | Sprint |
+| :--- | :--- | :--- | :--- |
+| Alta | Como Desenvolvedor, quero configurar um pipeline de Integração e Entrega Contínua (CI/CD) para automatizar os testes e o deploy da aplicação. | 13 | 1 |
+| Alta | Como Administrador, quero cadastrar e gerenciar as estações meteorológicas, definindo sua localização (ex: Fatec) e sensores associados. | 8 | 1 |
+| Alta | Como Desenvolvedor, quero projetar e implementar um banco de dados (relacional e não-relacional) otimizado para receber e armazenar grandes volumes de dados de IoT. | 8 | 1 |
+| Alta | Como Sistema, quero ter um serviço para recepcionar, processar e armazenar os dados de sensores (vento, chuva, umidade, temperatura, pressão) enviados pelas estações. | 13 | 1 |
+| Alta | Como Desenvolvedor IoT, quero desenvolver o Datalogger para coletar os dados dos sensores e transmiti-los para o servidor. | 21 | 1 |
+| Alta | Como Usuário, quero acessar um dashboard principal que exiba em tempo real as medições mais recentes de cada estação meteorológica. | 8 | 1 |
+| Alta | Como Administrador, quero criar regras de alerta baseadas em limites dos parâmetros (ex: velocidade do vento > 60km/h) para identificar condições de risco. | 5 | 1 |
+| Alta | Como Sistema, quero gerar notificações automáticas quando os dados recebidos de uma estação ultrapassarem os limites de alerta definidos. | 5 | 1 |
+| Média | Como Usuário, quero visualizar um painel interativo (dashboard) com gráficos e estatísticas históricas dos dados coletados, permitindo filtrar por período e estação. | 13 | 2 |
+| Média | Como Usuário, quero a capacidade de gerar pelo menos 3 relatórios distintos (ex: consolidados diários, picos de chuva) para análises aprofundadas. | 8 | 2 |
+| Média | Como Administrador, quero um sistema de controle de acesso com pelo menos dois níveis (administrador e público) para gerenciar as funcionalidades. | 5 | 2 |
+| Média | Como Usuário, quero que o sistema tenha uma interface responsiva (UX), que se adapte bem a diferentes tamanhos de tela, como celulares e computadores. | 5 | 3 |
+| Baixa | Como Desenvolvedor, quero documentar a API de recepção de dados para facilitar a integração de futuras estações ou sistemas. | 8 | 3 |
+| Baixa | Como Usuário, quero acessar uma área educativa no portal que explique de forma simples o que cada parâmetro meteorológico significa. | 5 | 3 |
 
-
-## Cronograma de evolução do Projeto (de forma visual)
+## Cronograma de evolução do Projeto
 
 *A ser preenchido pela equipe do projeto.*
 
@@ -27,6 +42,18 @@ Ao final, kits de estações meteorológicas serão instalados na Escola Estadua
 ## Tecnologias utilizadas
 
 *A ser preenchido pela equipe do projeto.*
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JIRA](https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ## Estrutura do Projeto
 
@@ -51,3 +78,4 @@ Ao final, kits de estações meteorológicas serão instalados na Escola Estadua
 | *Avya Alex* | *Developer* | *https://github.com/AvyaAquino* | *https://www.linkedin.com/in/avya-candido-598b5228a/* |
 | *Gabriel Guimarães* | *Developer* | *https://github.com/gabrielbguimaraes* | *https://www.linkedin.com/in/gabriel-g-854017138* |
 | *Pedro Prevides* | *Developer* | *https://github.com/GalaxyBurst* | *https://www.linkedin.com/in/pedro-prevides-87a0b71a8/* |
+| *Gustavo Lima* | *Developer* | *https://github.com* | *https://www.linkedin.com* |
