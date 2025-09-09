@@ -1,6 +1,6 @@
-# Sistema de Coleta de Dados de Estações Meteorológicas
+# ☁️ Nimbus - Sistema de Coleta de Dados de Estações Meteorológicas
 
-## Descrição
+## 📝 Descrição do projeto
 
 A empresa Tecsus, especializada na coleta e processamento de dados de redes de sensores sem fio (IoT) para utilidades como água, energia e gás, busca expandir seu portfólio para o monitoramento ambiental. Para isso, a empresa deseja desenvolver estações meteorológicas de baixo custo.
 
@@ -8,38 +8,46 @@ O desafio consiste em criar um sistema completo que colete periodicamente dados 
 
 Ao final, kits de estações meteorológicas serão instalados na Escola Estadual Elmano Ferreira Veloso e na Faculdade de Tecnologia de São José dos Campos (Fatec SJC), envolvendo alunos do ensino médio em uma aprendizagem baseada em problemas.
 
+---
+
 ## 📋 Backlog / User Stories
 
 | Prioridade | User Story | Estimativa | Sprint |
 | :--- | :--- | :--- | :--- |
-| Alta | Como Desenvolvedor, quero configurar um pipeline de Integração e Entrega Contínua (CI/CD) para automatizar os testes e o deploy da aplicação. | 13 | 1 |
-| Alta | Como Administrador, quero cadastrar e gerenciar as estações meteorológicas, definindo sua localização (ex: Fatec) e sensores associados. | 8 | 1 |
-| Alta | Como Desenvolvedor, quero projetar e implementar um banco de dados (relacional e não-relacional) otimizado para receber e armazenar grandes volumes de dados de IoT. | 8 | 1 |
-| Alta | Como Sistema, quero ter um serviço para recepcionar, processar e armazenar os dados de sensores (vento, chuva, umidade, temperatura, pressão) enviados pelas estações. | 13 | 1 |
-| Alta | Como Desenvolvedor IoT, quero desenvolver o Datalogger para coletar os dados dos sensores e transmiti-los para o servidor. | 21 | 1 |
-| Alta | Como Usuário, quero acessar um dashboard principal que exiba em tempo real as medições mais recentes de cada estação meteorológica. | 8 | 1 |
-| Alta | Como Administrador, quero criar regras de alerta baseadas em limites dos parâmetros (ex: velocidade do vento > 60km/h) para identificar condições de risco. | 5 | 1 |
-| Alta | Como Sistema, quero gerar notificações automáticas quando os dados recebidos de uma estação ultrapassarem os limites de alerta definidos. | 5 | 1 |
-| Média | Como Usuário, quero visualizar um painel interativo (dashboard) com gráficos e estatísticas históricas dos dados coletados, permitindo filtrar por período e estação. | 13 | 2 |
-| Média | Como Usuário, quero a capacidade de gerar pelo menos 3 relatórios distintos (ex: consolidados diários, picos de chuva) para análises aprofundadas. | 8 | 2 |
-| Média | Como Administrador, quero um sistema de controle de acesso com pelo menos dois níveis (administrador e público) para gerenciar as funcionalidades. | 5 | 2 |
-| Média | Como Usuário, quero que o sistema tenha uma interface responsiva (UX), que se adapte bem a diferentes tamanhos de tela, como celulares e computadores. | 5 | 3 |
-| Baixa | Como Desenvolvedor, quero documentar a API de recepção de dados para facilitar a integração de futuras estações ou sistemas. | 8 | 3 |
-| Baixa | Como Usuário, quero acessar uma área educativa no portal que explique de forma simples o que cada parâmetro meteorológico significa. | 5 | 3 |
+| 🔴 Alta | Como Desenvolvedor, quero configurar um pipeline de Integração e Entrega Contínua (CI/CD) para automatizar os testes e o deploy da aplicação. | 13 | 1 |
+| 🔴 Alta | Como Administrador, quero cadastrar e gerenciar as estações meteorológicas, definindo sua localização (ex: Fatec) e sensores associados. | 8 | 1 |
+| 🔴 Alta | Como Desenvolvedor, quero projetar e implementar um banco de dados (relacional e não-relacional) otimizado para receber e armazenar grandes volumes de dados de IoT. | 8 | 1 |
+| 🔴 Alta | Como Sistema, quero ter um serviço para recepcionar, processar e armazenar os dados de sensores (vento, chuva, umidade, temperatura, pressão) enviados pelas estações. | 13 | 1 |
+| 🔴 Alta | Como Desenvolvedor IoT, quero desenvolver o Datalogger para coletar os dados dos sensores e transmiti-los para o servidor. | 21 | 1 |
+| 🔴 Alta | Como Usuário, quero acessar um dashboard principal que exiba em tempo real as medições mais recentes de cada estação meteorológica. | 8 | 1 |
+| 🔴 Alta | Como Administrador, quero criar regras de alerta baseadas em limites dos parâmetros (ex: velocidade do vento > 60km/h) para identificar condições de risco. | 5 | 1 |
+| 🔴 Alta | Como Sistema, quero gerar notificações automáticas quando os dados recebidos de uma estação ultrapassarem os limites de alerta definidos. | 5 | 1 |
+| 🟠 Média | Como Usuário, quero visualizar um painel interativo (dashboard) com gráficos e estatísticas históricas dos dados coletados, permitindo filtrar por período e estação. | 13 | 2 |
+| 🟠 Média | Como Usuário, quero a capacidade de gerar pelo menos 3 relatórios distintos (ex: consolidados diários, picos de chuva) para análises aprofundadas. | 8 | 2 |
+| 🟠 Média | Como Administrador, quero um sistema de controle de acesso com pelo menos dois níveis (administrador e público) para gerenciar as funcionalidades. | 5 | 2 |
+| 🟠 Média | Como Usuário, quero que o sistema tenha uma interface responsiva (UX), que se adapte bem a diferentes tamanhos de tela, como celulares e computadores. | 5 | 3 |
+| 🟡 Baixa | Como Desenvolvedor, quero documentar a API de recepção de dados para facilitar a integração de futuras estações ou sistemas. | 8 | 3 |
+| 🟡 Baixa | Como Usuário, quero acessar uma área educativa no portal que explique de forma simples o que cada parâmetro meteorológico significa. | 5 | 3 |
 
-## Cronograma de evolução do Projeto
+---
+
+## 📅 Cronograma de evolução do Projeto
 
 *A ser preenchido pela equipe do projeto.*
 
-## Tabela descritiva das Sprints
+---
 
-| Período da Sprint | Link para Documentação da Sprint | Link para Vídeo no Youtube do Incremento entregue |
+## 🗓️ Tabela descritiva das Sprints
+
+| Período da Sprint | Documentação da Sprint | Vídeo no Youtube do Incremento entregue |
 | :---: | :---: | :---: |
 | *08/09/2025 - 28/09/2025* | *[Link para a documentação]* | *[Link para o vídeo]* |
 | *06/10/2025 - 26/10/2025* | *[Link para a documentação]* | *[Link para o vídeo]* |
 | *03/11/2025 - 23/11/2025* | *[Link para a documentação]* | *[Link para o vídeo]* |
 
-## Tecnologias utilizadas
+---
+
+## ⚙️ Tecnologias utilizadas
 
 *A ser preenchido pela equipe do projeto.*
 
@@ -55,19 +63,27 @@ Ao final, kits de estações meteorológicas serão instalados na Escola Estadua
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
-## Estrutura do Projeto
+---
+
+## 📂 Estrutura do Projeto
 
 *A ser preenchido pela equipe do projeto com a estrutura de pastas e arquivos.*
 
-## Como executar, usar e testar o projeto
+---
+
+## 🚀 Como executar, usar e testar o projeto
 
 *A ser preenchido pela equipe do projeto com as instruções detalhadas.*
 
-## Link para Pasta de Documentação
+---
+
+## 🔗 Link para Pasta de Documentação
 
 *[Link para a pasta com a documentação completa do projeto, incluindo Checklist de DoR e DoD, DoR e DoD por Sprint e Manual do Usuário]*
 
-## Equipe
+---
+
+## 👥 Equipe
 
 | Nome Completo | Papel | Link para GitHub | Link para LinkedIn |
 | :--- | :--- | :--- | :--- |
