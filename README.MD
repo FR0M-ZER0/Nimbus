@@ -10,6 +10,20 @@ Ao final, kits de estações meteorológicas serão instalados na Escola Estadua
 
 ---
 
+## 📖 Índice
+
+- [📝 Descrição do projeto](#-descrição-do-projeto)
+- [📋 Backlog / User Stories](#-backlog--user-stories)
+- [📅 Cronograma de evolução do Projeto](#-cronograma-de-evolução-do-projeto)
+- [🗓️ Tabela descritiva das Sprints](#-tabela-descritiva-das-sprints)
+- [⚙️ Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [📂 Estrutura do Projeto](#-estrutura-do-projeto)
+- [🚀 Como executar, usar e testar o projeto](#-como-executar-usar-e-testar-o-projeto)
+- [🔗 Link para Pasta de Documentação](#-link-para-pasta-de-documentação)
+- [👥 Equipe](#-equipe)
+
+---
+
 ## 📋 Backlog / User Stories
 
 | Rank | Prioridade | User Story | Estimativa | Sprint |
