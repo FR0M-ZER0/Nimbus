@@ -1,5 +1,19 @@
 # ☁️ Nimbus - Sistema de Coleta de Dados de Estações Meteorológicas
 
+## 📖 Índice
+
+- [📝 Descrição do projeto](#descrição-do-projeto)
+- [📋 Backlog / User Stories](#backlog--user-stories)
+- [📅 Cronograma de evolução do Projeto](#cronograma-de-evolução-do-projeto)
+- [🗓️ Tabela descritiva das Sprints](#tabela-descritiva-das-sprints)
+- [⚙️ Tecnologias utilizadas](#tecnologias-utilizadas)
+- [📂 Estrutura do Projeto](#estrutura-do-projeto)
+- [🚀 Como executar, usar e testar o projeto](#como-executar-usar-e-testar-o-projeto)
+- [🔗 Link para Pasta de Documentação](#link-para-pasta-de-documentação)
+- [👥 Equipe](#equipe)
+
+---
+
 ## 📝 Descrição do projeto
 
 A empresa Tecsus, especializada na coleta e processamento de dados de redes de sensores sem fio (IoT) para utilidades como água, energia e gás, busca expandir seu portfólio para o monitoramento ambiental. Para isso, a empresa deseja desenvolver estações meteorológicas de baixo custo.
@@ -7,20 +21,6 @@ A empresa Tecsus, especializada na coleta e processamento de dados de redes de s
 O desafio consiste em criar um sistema completo que colete periodicamente dados de sensores de direção e velocidade do vento, índice pluviométrico, umidade, temperatura e pressão. Essas informações serão enviadas a um servidor para tratamento e exibição em um portal com relatórios e dashboards. Um aspecto fundamental do projeto é o seu caráter educacional: o portal deverá demonstrar os conceitos matemáticos por trás dos cálculos dos parâmetros meteorológicos e ressaltar a importância do monitoramento ambiental na prevenção de desastres naturais.
 
 Ao final, kits de estações meteorológicas serão instalados na Escola Estadual Elmano Ferreira Veloso e na Faculdade de Tecnologia de São José dos Campos (Fatec SJC), envolvendo alunos do ensino médio em uma aprendizagem baseada em problemas.
-
----
-
-## 📖 Índice
-
-- [📝 Descrição do projeto](#-descrição-do-projeto)
-- [📋 Backlog / User Stories](#-backlog--user-stories)
-- [📅 Cronograma de evolução do Projeto](#-cronograma-de-evolução-do-projeto)
-- [🗓️ Tabela descritiva das Sprints](#-tabela-descritiva-das-sprints)
-- [⚙️ Tecnologias utilizadas](#-tecnologias-utilizadas)
-- [📂 Estrutura do Projeto](#-estrutura-do-projeto)
-- [🚀 Como executar, usar e testar o projeto](#-como-executar-usar-e-testar-o-projeto)
-- [🔗 Link para Pasta de Documentação](#-link-para-pasta-de-documentação)
-- [👥 Equipe](#-equipe)
 
 ---
 
@@ -34,7 +34,7 @@ Ao final, kits de estações meteorológicas serão instalados na Escola Estadua
 | 4 | 🔴Alta | Como Administrador, quero criar regras de alerta baseadas em limites dos parâmetros (ex: velocidade do vento > 60km/h), para identificar condições de risco. | 5 | 1 |
 | 5 | 🔴Alta | Como Sistema, quero gerar notificações automáticas quando os dados recebidos de uma estação ultrapassarem os limites de alerta definidos. | 5 | 1 |
 | 6 | 🔴Alta | Como Administrador, quero um sistema de controle de acesso com pelo menos dois níveis (administrador e público) para gerenciar as funcionalidades. | 5 | 1 |
-| 7 | 🔴Alta | Como Desenvolvedor, quero desenvolver o Datalogger para coletar os dados dos sensores e transmiti-los para o servidor. | 21 | 2 |
+| 7 | 🔴Alta | Como Desenvolvedor, quero desenvolver o Datalogger para coletar os dados dos sensores e transmiti-los para o servidor. | 13 | 2 |
 | 8 | 🔴Alta | Como Desenvolvedor, quero configurar um pipeline de Integração Contínua (CI) para automatizar a compilação (build) e a execução dos testes a cada nova alteração no código. | 8 | 2 |
 | 9 | 🔴Alta | Como Desenvolvedor, quero configurar um pipeline de Entrega Contínua (CD) para automatizar o deploy da aplicação em um ambiente (ex: desenvolvimento) após a Integração Contínua ser bem-sucedida. | 5 | 2 |
 | 10 | 🔴Alta | Como Usuário, quero acessar um dashboard principal que exiba em tempo real as medições mais recentes de cada estação meteorológica. | 8 | 2 |
@@ -56,9 +56,9 @@ Ao final, kits de estações meteorológicas serão instalados na Escola Estadua
 
 | Período da Sprint | Documentação da Sprint | Vídeo no Youtube do Incremento entregue |
 | :---: | :---: | :---: |
-| *08/09/2025 - 28/09/2025* | *[Link para a documentação]* | *[Link para o vídeo]* |
-| *06/10/2025 - 26/10/2025* | *[Link para a documentação]* | *[Link para o vídeo]* |
-| *03/11/2025 - 23/11/2025* | *[Link para a documentação]* | *[Link para o vídeo]* |
+| *08/09/2025 - 28/09/2025* | [Documentação da Sprint 1](docs/sprint1.md) | *[Link para o vídeo]* |
+| *06/10/2025 - 26/10/2025* | [Documentação da Sprint 2](docs/sprint2.md) | *[Link para o vídeo]* |
+| *03/11/2025 - 23/11/2025* | [Documentação da Sprint 3](docs/sprint3.md) | *[Link para o vídeo]* |
 
 ---
 
@@ -80,31 +80,37 @@ Ao final, kits de estações meteorológicas serão instalados na Escola Estadua
 
 ## 📂 Estrutura do Projeto
 
-*A ser preenchido pela equipe do projeto com a estrutura de pastas e arquivos.*
+A descrição completa da arquitetura do software e a estrutura de pastas do projeto está detalhada no documento abaixo.
+
+**[Ver Documento de Arquitetura](./docs/)**
 
 ---
 
 ## 🚀 Como executar, usar e testar o projeto
 
-*A ser preenchido pela equipe do projeto com as instruções detalhadas.*
+O guia completo para clonar, instalar as dependências, executar o projeto em modo de desenvolvimento e rodar os testes está disponível em nosso guia de instalação.
+
+**[Ver Guia de Instalação e Execução](./docs/)**
 
 ---
 
 ## 🔗 Link para Pasta de Documentação
 
-*[Link para a pasta com a documentação completa do projeto, incluindo Checklist de DoR e DoD, DoR e DoD por Sprint e Manual do Usuário]*
+Toda a documentação detalhada do projeto, incluindo manuais, definições (DoR/DoD) e documentação de Sprints, pode ser encontrada em nossa pasta de documentação.
+
+**[➡️ Acessar a Documentação Completa](./docs/)**
 
 ---
 
 ## 👥 Equipe
 
-| Nome Completo | Papel | Link para GitHub | Link para LinkedIn |
-| :--- | :--- | :--- | :--- |
-| *Davi Marinho* | *Scrum Master* | *https://github.com/DMBMz* | *https://www.linkedin.com/in/davi-miguel-a90821214/* |
-| *João Góes* | *Product Owner* | *https://github.com/MagNumGomes* | *https://www.linkedin.com/in/joaovitorgoes* |
-| *Daniel Piloto* | *Developer* | *https://github.com/danprsp* | *https://www.linkedin.com/in/daniel-piloto-98b717226/* |
-| *João Susuki* | *Developer* | *https://github.com/joaosuzuki98* | *https://www.linkedin.com/in/jo%C3%A3o-suzuki-6a2b02192/* |
-| *Avya Alex* | *Developer* | *https://github.com/AvyaAquino* | *https://www.linkedin.com/in/avya-candido-598b5228a/* |
-| *Gabriel Guimarães* | *Developer* | *https://github.com/gabrielbguimaraes* | *https://www.linkedin.com/in/gabriel-g-854017138* |
-| *Pedro Prevides* | *Developer* | *https://github.com/GalaxyBurst* | *https://www.linkedin.com/in/pedro-prevides-87a0b71a8/* |
-| *Gustavo Lima* | *Developer* | *https://github.com* | *https://www.linkedin.com* |
+| Foto | Nome | Papel | Link para GitHub | Link para LinkedIn |
+| :---: | :--- | :--- | :--- | :--- |
+| <img src="https://github.com/DMBMz.png" alt="Foto de Davi Marinho" height="64" width="64"> | *Davi Marinho* | *Scrum Master* | *https://github.com/DMBMz* | *https://www.linkedin.com/in/davi-miguel-a90821214/* |
+| <img src="https://github.com/MagNumGomes.png" alt="Foto de João Góes" height="64" width="64"> | *João Góes* | *Product Owner* | *https://github.com/MagNumGomes* | *https://www.linkedin.com/in/joaovitorgoes* |
+| <img src="https://github.com/danprsp.png" alt="Foto de Daniel Piloto" height="64" width="64"> | *Daniel Piloto* | *Developer* | *https://github.com/danprsp* | *https://www.linkedin.com/in/daniel-piloto-98b717226/* |
+| <img src="https://github.com/joaosuzuki98.png" alt="Foto de João Suzuki" height="64" width="64"> | *João Suzuki* | *Developer* | *https://github.com/joaosuzuki98* | *https://www.linkedin.com/in/jo%C3%A3o-suzuki-6a2b02192/* |
+| <img src="https://github.com/AvyaAquino.png" alt="Foto de Avya Alex" height="64" width="64"> | *Avya Alex* | *Developer* | *https://github.com/AvyaAquino* | *https://www.linkedin.com/in/avya-candido-598b5228a/* |
+| <img src="https://github.com/gabrielbguimaraes.png" alt="Foto de Gabriel Guimarães" height="64" width="64"> | *Gabriel Guimarães* | *Developer* | *https://github.com/gabrielbguimaraes* | *https://www.linkedin.com/in/gabriel-g-854017138* |
+| <img src="https://github.com/GalaxyBurst.png" alt="Foto de Pedro Prevides" height="64" width="64"> | *Pedro Prevides* | *Developer* | *https://github.com/GalaxyBurst* | *https://www.linkedin.com/in/pedro-prevides-87a0b71a8/* |
+| <img src="https://github.com/Miojoguu.png" alt="Foto de Gustavo Lima" height="64" width="64"> | *Gustavo Lima* | *Developer* | *https://github.com/Miojoguu* | *https://www.linkedin.com/in/gustavo-lima-904623295/* |
