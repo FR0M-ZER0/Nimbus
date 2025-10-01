@@ -2,15 +2,14 @@
 
 ## 📖 Índice
 
-- [📝 Descrição do projeto](#descrição-do-projeto)
-- [📋 Backlog / User Stories](#backlog--user-stories)
-- [📅 Cronograma de evolução do Projeto](#cronograma-de-evolução-do-projeto)
-- [🗓️ Tabela descritiva das Sprints](#tabela-descritiva-das-sprints)
-- [⚙️ Tecnologias utilizadas](#tecnologias-utilizadas)
-- [📂 Estrutura do Projeto](#estrutura-do-projeto)
-- [🚀 Como executar, usar e testar o projeto](#como-executar-usar-e-testar-o-projeto)
-- [🔗 Link para Pasta de Documentação](#link-para-pasta-de-documentação)
-- [👥 Equipe](#equipe)
+- [📝 Descrição do projeto](#-descrição-do-projeto)
+- [📋 Backlog / User Stories](#-backlog--user-stories)
+- [📅 Cronograma de evolução do Projeto](#-cronograma-de-evolução-do-projeto)
+- [🗓️ Tabela descritiva das Sprints](#️-tabela-descritiva-das-sprints)
+- [⚙️ Tecnologias utilizadas](#️-tecnologias-utilizadas)
+- [🚀 Como executar, usar e testar o projeto](#-como-executar-usar-e-testar-o-projeto)
+- [📂 Link para Pasta de Documentação](#-link-para-pasta-de-documentação)
+- [👥 Equipe](#-equipe)
 
 ---
 
@@ -26,22 +25,22 @@ Ao final, kits de estações meteorológicas serão instalados na Escola Estadua
 
 ## 📋 Backlog / User Stories
 
-| Rank | Prioridade | User Story | Estimativa | Sprint |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | 🔴Alta | Como Desenvolvedor, quero projetar e implementar um banco de dados (relacional e não-relacional) otimizado para receber e armazenar grandes volumes de dados de IoT. | 8 | 1 |
-| 2 | 🔴Alta | Como Sistema, quero ter um serviço para recepcionar, processar e armazenar os dados de sensores (vento, chuva, umidade, temperatura, pressão) enviados pelas estações. | 13 | 1 |
-| 3 | 🔴Alta | Como Administrador, quero cadastrar e gerenciar as estações meteorológicas, definindo sua localização (ex: Fatec) e sensores associados. | 8 | 1 |
-| 4 | 🔴Alta | Como Administrador, quero criar regras de alerta baseadas em limites dos parâmetros (ex: velocidade do vento > 60km/h), para identificar condições de risco. | 5 | 1 |
-| 5 | 🔴Alta | Como Sistema, quero gerar notificações automáticas quando os dados recebidos de uma estação ultrapassarem os limites de alerta definidos. | 5 | 1 |
-| 6 | 🔴Alta | Como Administrador, quero um sistema de controle de acesso com pelo menos dois níveis (administrador e público) para gerenciar as funcionalidades. | 5 | 1 |
-| 7 | 🔴Alta | Como Desenvolvedor, quero desenvolver o Datalogger para coletar os dados dos sensores e transmiti-los para o servidor. | 13 | 2 |
-| 8 | 🔴Alta | Como Desenvolvedor, quero configurar um pipeline de Integração Contínua (CI) para automatizar a compilação (build) e a execução dos testes a cada nova alteração no código. | 8 | 2 |
-| 9 | 🔴Alta | Como Desenvolvedor, quero configurar um pipeline de Entrega Contínua (CD) para automatizar o deploy da aplicação em um ambiente (ex: desenvolvimento) após a Integração Contínua ser bem-sucedida. | 5 | 2 |
-| 10 | 🔴Alta | Como Usuário, quero acessar um dashboard principal que exiba em tempo real as medições mais recentes de cada estação meteorológica. | 8 | 2 |
-| 11 | 🔴Alta | Como Usuário, quero visualizar um painel interativo (dashboard) com gráficos e estatísticas históricas dos dados coletados, permitindo filtrar por período e estação. | 13 | 3 |
-| 12 | 🟠Média | Como Usuário, quero a capacidade de gerar pelo menos 3 relatórios distintos (ex: consolidados diários, picos de chuva) para análises aprofundadas. | 8 | 3 |
-| 13 | 🟠Média | Como Desenvolvedor, quero documentar a API de recepção de dados para facilitar a integração de futuras estações ou sistemas. | 8 | 3 |
-| 14 | 🟠Média | Como Usuário, quero acessar uma área educativa no portal que explique de forma simples o que cada parâmetro meteorológico significa. | 5 | 3 |
+ Ranking | Prioridade | User Story | Estimativa | Sprint |
+| :--- | :--- | :--- | :---: | :---: |
+| 1 | 🔴Alta | Como Desenvolvedor, quero projetar e implementar um banco de dados (relacional/não-relacional) otimizado para receber e armazenar grandes volumes de IoT. | 5 | 1 |
+| 2 | 🔴Alta | Como Administrador, quero cadastrar e gerenciar as estações meteorológicas, definindo sua localização (ex. Fatec) e sensores associados. | 8 | 1 |
+| 3 | 🔴Alta | Como Administrador, quero criar regras de alerta baseadas em limites dos parâmetros (ex: velocidade do vento > 60km/h) para identificar condições de risco. | 8 | 1 |
+| 4 | 🔴Alta | Como Administrador, quero um sistema de controle de acesso com pelo menos dois níveis (administrador e público) para gerenciar as funcionalidades. | 5 | 1 |
+| 5 | 🔴Alta | Como Desenvolvedor, quero documentar a API de recepção de dados para facilitar a integração de futuras estações ou sistemas. | 8 | 1 |
+| 6 | 🔴Alta | Como Sistema, quero ter um serviço para recepcionar, processar e armazenar os dados de sensores (vento, chuva, umidade, temperatura, pressão) enviados pelas estações. | 13 | 2 |
+| 7 | 🔴Alta | Como Desenvolvedor, quero configurar um pipeline de Integração Contínua (CI) para automatizar a compilação (build) e a execução dos testes a cada nova alteração no código. | 8 | 2 |
+| 8 | 🔴Alta | Como Desenvolvedor, quero configurar um pipeline de Entrega Contínua (CD) para automatizar o deploy da aplicação em um ambiente (ex: desenvolvimento) após a Integração Contínua ser bem-sucedida. | 8 | 2 |
+| 9 | 🔴Alta | Como Usuário, quero acessar um dashboard principal que exiba em tempo real as medições mais recentes de cada estação meteorológica. | 8 | 2 |
+| 10 | 🔴Alta | Como Usuário, quero visualizar um painel interativo (dashboard) com gráficos e estatísticas históricas dos dados coletados, permitindo filtrar por período e estação. | 8 | 2 |
+| 11 | 🔴Alta | Como Desenvolvedor, quero desenvolver o Datalogger para coletar os dados dos sensores e transmiti-los para o servidor. | 13 | 3 |
+| 12 | 🔴Alta | Como Sistema, quero gerar notificações automáticas quando os dados recebidos de uma estação ultrapassarem os limites de alerta definidos. | 5 | 3 |
+| 13 | 🟠Média | Como Usuário, quero a capacidade de gerar pelo menos 3 relatórios distintos (ex: consolidados diários, picos de chuva) para análises aprofundadas. | 8 | 3 |
+| 14 | 🟠Média | Como Usuário, quero uma área educativa no portal que explique de forma simples o que cada parâmetro meteorológico significa. | 5 | 3 |
 | 15 | 🟡Baixa | Como Usuário, quero que o sistema tenha uma interface responsiva (UX), que se adapte bem a diferentes tamanhos de tela, como celulares e computadores. | 5 | 3 |
 
 ---
@@ -56,9 +55,9 @@ Ao final, kits de estações meteorológicas serão instalados na Escola Estadua
 
 | Período da Sprint | Documentação da Sprint | Vídeo no Youtube do Incremento entregue |
 | :---: | :---: | :---: |
-| *08/09/2025 - 28/09/2025* | [Documentação da Sprint 1](docs/sprint1.md) | *[Link para o vídeo]* |
-| *06/10/2025 - 26/10/2025* | [Documentação da Sprint 2](docs/sprint2.md) | *[Link para o vídeo]* |
-| *03/11/2025 - 23/11/2025* | [Documentação da Sprint 3](docs/sprint3.md) | *[Link para o vídeo]* |
+| *08/09/2025 - 28/09/2025* | [Documentação da Sprint 1](docs/sprint1.md) | *[Vídeo]* |
+| *06/10/2025 - 26/10/2025* | [Documentação da Sprint 2](docs/sprint2.md) | *[Vídeo]* |
+| *03/11/2025 - 23/11/2025* | [Documentação da Sprint 3](docs/sprint3.md) | *[Vídeo]* |
 
 ---
 
@@ -78,25 +77,17 @@ Ao final, kits de estações meteorológicas serão instalados na Escola Estadua
 
 ---
 
-## 📂 Estrutura do Projeto
-
-A descrição completa da arquitetura do software e a estrutura de pastas do projeto está detalhada no documento abaixo.
-
-**[Ver Documento de Arquitetura](./docs/)**
-
----
-
 ## 🚀 Como executar, usar e testar o projeto
 
 O guia completo para clonar, instalar as dependências, executar o projeto em modo de desenvolvimento e rodar os testes está disponível em nosso guia de instalação.
 
-**[Ver Guia de Instalação e Execução](./docs/)**
+**[➡️ Ver Guia de Instalação e Execução](./docs/Guia.md)**
 
 ---
 
-## 🔗 Link para Pasta de Documentação
+## 📂 Link para Pasta de Documentação
 
-Toda a documentação detalhada do projeto, incluindo manuais, definições (DoR/DoD) e documentação de Sprints, pode ser encontrada em nossa pasta de documentação.
+Toda a documentação detalhada do projeto, incluindo manuais, modelagem, arquitetura, documentação de Sprints e definições (DoR/DoD), pode ser encontrada em nossa pasta de documentação.
 
 **[➡️ Acessar a Documentação Completa](./docs/)**
 
