@@ -5,7 +5,6 @@
 - [📝 Descrição do projeto](#-descrição-do-projeto)
 - [📋 Backlog / User Stories](#-backlog--user-stories)
 - [📅 Cronograma de evolução do Projeto](#-cronograma-de-evolução-do-projeto)
-- [🗓️ Tabela descritiva das Sprints](#️-tabela-descritiva-das-sprints)
 - [⚙️ Tecnologias utilizadas](#️-tecnologias-utilizadas)
 - [🚀 Como executar, usar e testar o projeto](#-como-executar-usar-e-testar-o-projeto)
 - [📂 Link para Pasta de Documentação](#-link-para-pasta-de-documentação)
@@ -25,7 +24,7 @@ Ao final, kits de estações meteorológicas serão instalados na Escola Estadua
 
 ## 📋 Backlog / User Stories
 
- Ranking | Prioridade | User Story | Estimativa | Sprint |
+| Ranking | Prioridade | User Story | Estimativa | Sprint |
 | :--- | :--- | :--- | :---: | :---: |
 | 1 | 🔴Alta | Como Desenvolvedor, quero projetar e implementar um banco de dados (relacional/não-relacional) otimizado para receber e armazenar grandes volumes de IoT. | 5 | 1 |
 | 2 | 🔴Alta | Como Administrador, quero cadastrar e gerenciar as estações meteorológicas, definindo sua localização (ex. Fatec) e sensores associados. | 8 | 1 |
@@ -47,33 +46,35 @@ Ao final, kits de estações meteorológicas serão instalados na Escola Estadua
 
 ## 📅 Cronograma de evolução do Projeto
 
-*A ser preenchido pela equipe do projeto.*
+O desenvolvimento do projeto foi dividido em três Sprints principais, com os seguintes focos de entrega:
 
----
-
-## 🗓️ Tabela descritiva das Sprints
-
-| Período da Sprint | Documentação da Sprint | Vídeo no Youtube do Incremento entregue |
-| :---: | :---: | :---: |
-| *08/09/2025 - 28/09/2025* | [Documentação da Sprint 1](docs/sprint1.md) | *[Vídeo]* |
-| *06/10/2025 - 26/10/2025* | [Documentação da Sprint 2](docs/sprint2.md) | *[Vídeo]* |
-| *03/11/2025 - 23/11/2025* | [Documentação da Sprint 3](docs/sprint3.md) | *[Vídeo]* |
+- **Sprint 1:** Arquitetura, modelagem do banco de dados e CRUDs.
+- **Sprint 2:** Recepção de dados, parser e armazenamento.
+- **Sprint 3:** Datalogger, alertas e relatórios.
 
 ---
 
 ## ⚙️ Tecnologias utilizadas
 
-*A ser preenchido pela equipe do projeto.*
-
+### Desenvolvimento Web & Backend
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### Banco de Dados & Infraestrutura
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
+### IoT & Hardware
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+![ESP32](https://img.shields.io/badge/Espressif-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-3C5280?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white)
 
 ---
 
@@ -87,7 +88,7 @@ O guia completo para clonar, instalar as dependências, executar o projeto em mo
 
 ## 📂 Link para Pasta de Documentação
 
-Toda a documentação detalhada do projeto, incluindo manuais, modelagem, arquitetura, documentação de Sprints e definições (DoR/DoD), pode ser encontrada em nossa pasta de documentação.
+A documentação detalhada do projeto, incluindo manuais, documentação de Sprints e definições (DoR/DoD), pode ser encontrada em nossa pasta de documentação.
 
 **[➡️ Acessar a Documentação Completa](./docs/)**
 
